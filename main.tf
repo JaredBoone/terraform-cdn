@@ -4,7 +4,7 @@ provider "aws" {
 
 locals {
     waf_ip_set_descriptors = [
-      { type = "IPV4", value = "128.0.0.0/1"},
+      { type = "IPV4", value = "128.0.0.0/16"},
   ]
 }
 
